@@ -1,0 +1,42 @@
+/* Google font family copied */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.orange-text{
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+.orange-box{
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 34px;
+
+}
